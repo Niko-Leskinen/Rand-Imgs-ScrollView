@@ -22,7 +22,7 @@ public class ScrollingActivity extends AppCompatActivity {
 
     NestedScrollView scrollView;
     LinearLayout mainLayout;
-    String url = "https://picsum.photos/1000/1000";
+    String url = "https://picsum.photos/1000/1000?";
     Picasso mPicasso;
     ImageView img;
 
@@ -69,9 +69,11 @@ public class ScrollingActivity extends AppCompatActivity {
     }
     // Use Picasso to fetch image from the url.
     public void getImage() {
+        double token = 0;
+        token = Math.random();
         img = new ImageView(this);
         mainLayout.addView(img);
-        mPicasso.get().load(url).networkPolicy(NetworkPolicy.NO_STORE, NetworkPolicy.NO_CACHE)
+        mPicasso.get().load(url+token).networkPolicy(NetworkPolicy.NO_STORE, NetworkPolicy.NO_CACHE)
                 .memoryPolicy(MemoryPolicy.NO_STORE, MemoryPolicy.NO_CACHE).into(img);
     }
 }
