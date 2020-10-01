@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Random Images, enjoy!</string>
+    <string name="app_name">Rand Imgs!</string>
+    <string name="seekBarNumber">%s/100</string>
 </resources>
