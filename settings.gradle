@@ -1,2 +1,1 @@
 include ':app'
-rootProject.name = "dream-broker-test-task-Leskinen"

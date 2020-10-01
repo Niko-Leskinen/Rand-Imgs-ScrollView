@@ -1,7 +1,8 @@
-package com.example.dream_broker_test_task_leskinen;
+package Rand_Imgs_ScrollView;
 
 import android.os.Bundle;
 
+import com.example.Rand_Imgs_ScrollView.R;
 import com.squareup.picasso.MemoryPolicy;
 import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;

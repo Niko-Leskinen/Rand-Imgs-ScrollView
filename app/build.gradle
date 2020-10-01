@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.example.dream_broker_test_task_leskinen"
+        applicationId "com.example.Rand_Imgs_ScrollView"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
