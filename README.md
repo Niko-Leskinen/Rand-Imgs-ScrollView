@@ -1,6 +1,8 @@
 # Rand-Imgs-ScrollView
-Random images from the web into a smooth scrollable view. WIP
+Random images from the web into a smooth scrollable view. 
 
-Scrolling for new images with swipes
+User can choose the count of images from 0-100
+At the bottom user can swipe down to get a new image
+Bottom bar button allows to scroll back up fast
 
-![MP4[824 KB]](https://github.com/Niko-Leskinen/Rand-Imgs-ScrollView/blob/master/Resources/randimg.mp4?raw=true)
+![appImg](https://github.com/Niko-Leskinen/Rand-Imgs-ScrollView/blob/master/Resources/appImg.jpg?raw=true)
